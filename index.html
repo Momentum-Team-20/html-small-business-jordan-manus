@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="starter_files/" rel="images">
+    <link href="stylesheet.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -10,11 +11,14 @@
 <body>
     <header>
         <h1 class="store-name">Lazy River Nursery and Garden Supply</h1>
-    <img src="starter_files/images/store-interior.jpg" alt="picture of store's interior." class="store-interior">
+        <div class="hero">
+            <!-- <h1>hello</h1> -->
+            <img src="starter_files/images/store-interior.jpg" alt="picture of store's interior." class="store-interior image is-16by9" style="padding-top: 0;">
+        </div>
     </header>
-    <nav class="nav">
+    <nav class="navbar" is-center>
         <a href="index.html" class="home">Home</a>
-        <a href="instock.html" class="instock">Currently in Stock</a>
+        <a href="instock.html" class="instock">Stock</a>
         <a href="info.html" class="about">About Us</a>
     </nav>
     <p>Lazy River Nursery and Garden Supply has been serving the garden needs of the Tri-State area since 1976. We have supplies for everyone from the small hobby gardener to landscaping contractors.</p>

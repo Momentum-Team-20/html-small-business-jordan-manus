@@ -1,0 +1,30 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css"; */
+
+
+/* body, html {
+    height: 100%;
+    margin: 0;    
+}
+
+header {
+    border: 5px solid hotpink;
+    height: 30%;
+    width: 100%;
+}
+
+.hero-image{
+    height: 80%;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    /* width: 100%;
+    border: 5px solid greenyellow; */
+/* } */
+
+/* .store-interior { */
+    /* object-fit: fill; */
+    /* width: 50%; */
+    /* height: 100%; */
+/* } */
